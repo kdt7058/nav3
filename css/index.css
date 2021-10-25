@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.Brand-Title{
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: white;
+
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    display: block;
+}
+.navbar-links li:hover{
+    background-color: gray;
+}
+#bars{
+    font-size: 30px;
+    position: relative;
+    right: 50px;
+    display: none;
+}
+@media screen and (max-width:765px){
+    .navbar-links li a{
+        position: absolute;
+    }
+}
