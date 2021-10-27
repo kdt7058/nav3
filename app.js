@@ -16,3 +16,12 @@ const navSlide = () =>{
 navSlide();
 
 console.log("Hello");
+
+const home = () => {
+    const homeBtn = document.querySelector("#home");
+    homeBtn.addEventListener("click", ()=>{
+        console.log("HomePage");
+    })
+}
+
+home();

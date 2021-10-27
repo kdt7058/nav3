@@ -50,8 +50,8 @@ body{
     .all-links{
         position: absolute;
         right: 0px;
-        top: 12vh;
-        height: 55vh;
+        top: 6vh;
+        height: 30vh;
         background-color:grey;
         display: flex;
         flex-direction: column;
